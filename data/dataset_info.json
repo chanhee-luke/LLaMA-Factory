@@ -704,5 +704,30 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "robospatial-sn-10k": {
+    "hf_hub_url": "luke-private/RoboSpatial-SN",
+    "columns": {
+      "query": "Prompt",
+      "response": "Answer",
+      "images": "image"
+    }
+  },
+  "robospatial-sn-10k-val": {
+    "hf_hub_url": "luke-private/RoboSpatial-SN",
+    "split": "validation",
+    "columns": {
+      "query": "Prompt",
+      "response": "Answer",
+      "images": "image"
+    }
+  },
+  "robospatial-home": {
+    "hf_hub_url": "chanhee-luke/RoboSpatial-Home",
+    "columns": {
+      "query": "question",
+      "response": "answer",
+      "images": "img"
+    }
   }
 }
